@@ -257,6 +257,32 @@ body{
     margin: 1;
 }
 
+/* Your existing CSS code */
+
+/* Add responsive CSS rules */
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  #upload-msg,
+  #convertBtn,
+  #download {
+      width: 100%;
+      margin: 0.5rem 0;
+  }
+
+  .add-more-files,
+  .inp-container {
+      width: 80%;
+      margin: 2rem auto;
+  }
+}
+
 
 
 
